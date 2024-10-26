@@ -1,0 +1,1675 @@
+body {
+    background-color: #1a1d2c;
+  }
+
+header {
+  position: relative;
+  height:0;
+}
+
+.mobile-navbar{
+  position: relative;
+  top: -500px;
+}
+
+.wander-homepage {
+    background-color: #1a1d2c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .wander-homepage .div {
+    background-color: #1a1d2c;
+    overflow: hidden;
+    width: 1440px;
+    height: 3072px;
+    position: relative;
+  }
+  
+  .wander-homepage .overlap {
+    position: absolute;
+    width: 1647px;
+    height: 2068px;
+    top: -64px;
+    left: -103px;
+  }
+  
+  .wander-homepage .overlap-group {
+    position: absolute;
+    width: 1647px;
+    height: 2068px;
+    top: 0;
+    left: 0;
+  }
+  
+  .wander-homepage .group {
+    position: absolute;
+    width: 1647px;
+    height: 987px;
+    top: 0;
+    left: 0;
+  }
+  
+  .wander-homepage .road-bg {
+    position: absolute;
+    width: 1440px;
+    height: 923px;
+    top: 64px;
+    left: 103px;
+  }
+  
+  .wander-homepage .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 64px;
+    left: 103px;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  
+  .wander-homepage .navbar {
+    position: relative;
+    width: 1369px;
+    height: 88px;
+    left: 23px;
+    z-index: 2;
+  }
+  
+  .wander-homepage .text-wrapper {
+    width: 83px;
+    height: 22px;
+    left: 1123px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 32px;
+    font-family: "Krub", Helvetica;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wander-homepage .text-wrapper-2 {
+    position: absolute;
+    width: 108px;
+    top: 32px;
+    left: 964px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wander-homepage .overlap-group-2 {
+    position: absolute;
+    width: 1369px;
+    height: 94px;
+  }
+  
+  .wander-homepage .line {
+    position: absolute;
+    width: 1600px;
+    height: 1.1px;
+    background-color: #fff;
+  }
+  
+  .wander-homepage .logo {
+    position: absolute;
+    width: 127px;
+    height: 94px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .img {
+    width: 127px;
+    top: 88px;
+    left: 634px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .text-wrapper-3 {
+    width: 77px;
+    left: 659px;
+    font-weight: 700;
+    color: #fff500;
+    position: absolute;
+    top: 32px;
+    font-family: "Krub", Helvetica;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 2;
+  }
+  
+  .wander-homepage .text-wrapper-4 {
+    width: 126px;
+    left: 787px;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    top: 32px;
+    font-family: "Krub", Helvetica;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .wander-homepage .text-wrapper-4 .desti{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .wander-homepage .text-wrapper-2 .trav{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .wander-homepage .text-wrapper .for{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .wander-homepage .text-wrapper-5 {
+    position: absolute;
+    width: 962px;
+    top: 285px;
+    left: 340px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 200px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  
+  .wander-homepage .blur {
+    position: absolute;
+    width: 1440px;
+    height: 976px;
+    top: 307px;
+    left: 103px;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .p {
+    position: absolute;
+    width: 574px;
+    top: 525px;
+    left: 847px;
+    font-family: "Krub", Helvetica;
+    font-weight: 400;
+    color: #fff500;
+    font-size: 24px;
+    z-index: 2;
+  }
+  
+  .wander-homepage .welcome-to-wander {
+    position: absolute;
+    width: 662px;
+    top: 1216px;
+    left: 240px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  .wander-homepage .span {
+    color: #ffffff;
+  }
+  
+  .wander-homepage .text-wrapper-6 {
+    color: #fff500;
+  }
+  
+  .wander-homepage .logo-2 {
+    position: absolute;
+    width: 607px;
+    height: 647px;
+    top: 988px;
+    left: 917px;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .rectangle-2 {
+    position: absolute;
+    width: 1382px;
+    height: 510px;
+    top: 1558px;
+    left: 132px;
+    background-color: #151825;
+    border-radius: 20px;
+  }
+  
+  .wander-homepage .text-wrapper-7 {
+    position: absolute;
+    width: 196px;
+    top: 1840px;
+    left: 235px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 900;
+    color: #fff500;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wander-homepage .we-envision-a-world {
+    position: absolute;
+    width: 280px;
+    top: 1877px;
+    left: 681px;
+    font-family: "Krub", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .wander-homepage .text-wrapper-8 {
+    position: absolute;
+    width: 280px;
+    top: 1877px;
+    left: 1148px;
+    font-family: "Krub", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .wander-homepage .text-wrapper-9 {
+    position: absolute;
+    width: 570px;
+    top: 1615px;
+    left: 539px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .wander-homepage .ellipse {
+    left: 292px;
+    background-color: #323855;
+    border-radius: 47.5px;
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 1724px;
+  }
+  
+  .wander-homepage .ellipse-2 {
+    left: 777px;
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 1724px;
+  }
+  
+  .wander-homepage .ellipse-3 {
+    left: 1243px;
+    background-color: #323855;
+    border-radius: 47.5px;
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 1724px;
+  }
+  
+  .wander-homepage .pib {
+    position: absolute;
+    width: 134px;
+    height: 125px;
+    top: 1716px;
+    left: 272px;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .eye {
+    position: absolute;
+    width: 150px;
+    height: 72px;
+    top: 1736px;
+    left: 747px;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .fist {
+    position: absolute;
+    width: 146px;
+    height: 104px;
+    top: 1716px;
+    left: 1218px;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .text-wrapper-10 {
+    position: absolute;
+    width: 279px;
+    top: 1877px;
+    left: 194px;
+    font-family: "Krub", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .wander-homepage .text-wrapper-11 {
+    position: absolute;
+    width: 196px;
+    top: 1840px;
+    left: 1190px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 900;
+    color: #fff500;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wander-homepage .text-wrapper-12 {
+    position: absolute;
+    width: 196px;
+    top: 1841px;
+    left: 719px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 900;
+    color: #fff500;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wander-homepage .text-wrapper-13 {
+    position: absolute;
+    width: 640px;
+    top: 1315px;
+    left: 240px;
+    font-family: "Krub", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .wander-homepage .overlap-2 {
+    position: absolute;
+    width: 574px;
+    height: 182px;
+    top: 2169px;
+    left: 782px;
+  }
+  
+  .wander-homepage .text-wrapper-14 {
+    position: absolute;
+    width: 510px;
+    top: 90px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+  }
+  
+  .wander-homepage .line-2 {
+    width: 284px;
+    height: 1px;
+    top: 2368px;
+    background-color: #fff500;
+    position: relative;
+    left: 783px;
+  }
+  
+  .wander-homepage .vid {
+    position: absolute;
+    width: 352px;
+    height: 411px;
+    top: 2170px;
+    left: 70px;
+    background-color: #000000;
+    object-fit: fill;
+  }
+  
+  .wander-homepage .image {
+    width: 289px;
+    height: 507px;
+    top: 2170px;
+    left: 443px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .image-2 {
+    width: 352px;
+    height: 330px;
+    top: 2601px;
+    left: 70px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .image-3 {
+    width: 289px;
+    height: 234px;
+    top: 2697px;
+    left: 443px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .wander-homepage .overlap-3 {
+    position: absolute;
+    width: 433px;
+    height: 407px;
+    top: 2396px;
+    left: 782px;
+  }
+  
+  .wander-homepage .text-wrapper-15 {
+    position: absolute;
+    width: 395px;
+    top: 0;
+    left: 0;
+    font-family: "Krub", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .wander-homepage .book-now {
+    position: absolute;
+    width: 177px;
+    height: 62px;
+    top: 2700px;
+    left: 782px;
+  }
+  
+  .wander-homepage .overlap-4 {
+    position: relative;
+    width: 175px;
+    height: 62px;
+    border-radius: 40px;
+  }
+  
+  .wander-homepage .rectangle-3 {
+    position: absolute;
+    width: 145px;
+    height: 47px;
+    top: -52px;
+    background-color: #fff500;
+    border-radius: 40px;
+    opacity: 0.7;
+  }
+  
+  .wander-homepage .text-wrapper-16 {
+    position: absolute;
+    width: 145px;
+    height: 42px;
+    top: -44px;
+    left: 0px;
+    font-family: "Krub", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .wander-homepage .group-2 {
+    position: absolute;
+    width: 1339px;
+    height: 72px;
+    top: 3000px;
+    left: 50px;
+  }
+  
+  .wander-homepage .line-3 {
+    width: 1551px;
+    top: -1px;
+    left: -65px;
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+  }
+  
+  .wander-homepage .ig {
+    position: absolute;
+    width: 62px;
+    height: 66px;
+    top: 5px;
+    left: 564px;
+  }
+  
+  .wander-homepage .overlap-5 {
+    position: absolute;
+    width: 136px;
+    height: 61px;
+    top: 11px;
+    left: 626px;
+  }
+  
+  .wander-homepage .logo-3 {
+    position: absolute;
+    width: 76px;
+    height: 61px;
+    top: 0;
+    left: 0;
+  }
+  
+  .wander-homepage .email {
+    position: absolute;
+    width: 61px;
+    height: 51px;
+    top: 5px;
+    left: 75px;
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .wander-homepage {
+      background-color: #1a1d2c;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .wander-homepage .div {
+      background-color: #1a1d2c;
+      overflow: hidden;
+      width: 1000px;
+      height: 2215px;
+      position: relative;
+    }
+    
+    .wander-homepage .overlap {
+      position: absolute;
+      width: 1647px;
+      height: 2068px;
+      top: -64px;
+      left: -103px;
+    }
+    
+    .wander-homepage .overlap-group {
+      position: absolute;
+      width: 1647px;
+      height: 2068px;
+      top: 0;
+      left: 0;
+    }
+    
+    .wander-homepage .group { /*done*/
+      position: absolute;
+      width: 1100px;
+      height: 800px;
+      top: 0;
+      left: 0;
+    }
+   
+    .wander-homepage .road-bg {
+      position: absolute;
+      width: 1440px;
+      height: 923px;
+      top: 64px;
+      left: 103px;
+    }
+    
+    .wander-homepage .rectangle { /*done*/
+      position: absolute;
+      width: 1440px;
+      height: 923px;
+      top: 64px;
+      left: 103px;
+      background-color: #000000;
+      opacity: 0.3;
+      z-index: 1;
+    }
+    
+    .wander-homepage .navbar {
+      position: relative;
+      width: 1369px;
+      height: 80px;
+      left: 23px;
+      z-index: 2;
+    }
+    
+    .wander-homepage .text-wrapper { /*done*/
+      width: 126px;
+      left: 816px;
+      font-weight: 300;
+      color: #ffffff;
+      position: absolute;
+      top: 32px;
+      font-family: "Krub", Helvetica;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
+    .wander-homepage .text-wrapper-2 { /*done*/
+      width: 126px;
+      left: 716px;
+      font-weight: 300;
+      color: #ffffff;
+      position: absolute;
+      top: 32px;
+      font-family: "Krub", Helvetica;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
+    .wander-homepage .overlap-group-2 {
+      position: absolute;
+      width: 1369px;
+      height: 94px;
+      top: 0;
+      left: 0;
+    }
+    
+    .wander-homepage .line {
+      width: 995px;
+      height: 1.5px;
+      background-color: #fff;
+    }
+  
+    .wander-homepage .logo { /*done*/
+      position: relative;
+      width: 100px;
+      height: 67px;
+      top: 10px;
+      left: -30px;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .text-wrapper-3 { /*done*/
+      width: 77px;
+      left: 450px;
+      font-weight: 550;
+      color: #fff500;
+      position: absolute;
+      top: 32px;
+      font-family: "Krub", Helvetica;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      z-index: 2;
+    }
+    
+    .wander-homepage .text-wrapper-4 { /*done*/
+      width: 126px;
+      left: 558px;
+      font-weight: 300;
+      color: #ffffff;
+      position: absolute;
+      top: 32px;
+      font-family: "Krub", Helvetica;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
+    .wander-homepage .text-wrapper .trav{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    .wander-homepage .text-wrapper .for{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .wander-homepage .text-wrapper-5 { /*done*/
+      position: relative;
+      width: 962px;
+      top: 285px;
+      left: 100px;
+      font-family: "Koulen", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 11.25rem;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+      white-space: nowrap;
+      z-index: 2;
+    }
+    
+    .wander-homepage .blur { /*done*/
+      position: absolute;
+      width: 1440px;
+      height: 976px;
+      top: 125px;
+      left: 103px;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .p { /*done*/
+      position: absolute;
+      width: 574px;
+      top: 500px;
+      left: 600px;
+      font-family: "Krub", Helvetica;
+      font-weight: 200;
+      color: #fff500;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: normal;
+      z-index: 2;
+    }
+    
+    .wander-homepage .welcome-to-wander { /*done*/
+      position: absolute;
+      width: 662px;
+      top: 1116px;
+      left: 180px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 400;
+      color: transparent;
+      font-size: 32px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .span {      /*done*/
+      color: #ffffff;
+    }
+    
+    .wander-homepage .text-wrapper-6 {    /*done*/
+      color: #fff500;
+    }
+    
+    .wander-homepage .logo-2 { /*done*/
+      position: absolute;
+      width: 467px;
+      height: 507px;
+      top: 935px;
+      left: 617px;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .rectangle-2 { /*done*/
+      position: absolute;
+      width: 932px;
+      height: 340px;
+      top: 1408px;
+      left: 132px;
+      background-color: #151825;
+      border-radius: 20px;
+    }
+    
+    .wander-homepage .text-wrapper-7 { /*done*/
+      position: absolute;
+      width: 196px;
+      top: 1600px;
+      left: 180px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 900;
+      color: #fff500;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .we-envision-a-world { /*done*/
+      position: absolute;
+      width: 193px;
+      top: 1620px;
+      left: 500px;
+      font-family: "Krub", Helvetica;
+      font-weight: 200;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .text-wrapper-8 { /*done*/
+      position: absolute;
+      width: 193px;
+      top: 1620px;
+      left: 800px;
+      font-family: "Krub", Helvetica;
+      font-weight: 200;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .text-wrapper-9 { /*done*/
+      position: absolute;
+      width: 570px;
+      top: 1435px;
+      left: 325px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .ellipse { /*done*/
+      left: 250px;
+      background-color: #323855;
+      border-radius: 47.5px;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      top: 1500px;
+    }
+    
+    .wander-homepage .ellipse-2 { /*done*/
+      left: 570px;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      top: 1500px;
+    }
+    
+    .wander-homepage .ellipse-3 { /*done*/
+      left: 870px;
+      background-color: #323855;
+      border-radius: 47.5px;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      top: 1500px;
+    }
+    
+    .wander-homepage .pib { /*done*/
+      position: absolute;
+      width: 104px;
+      height: 95px;
+      top: 1490px;
+      left: 228px;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .eye { /*done*/
+      position: absolute;
+      width: 120px;
+      height: 42px;
+      top: 1510px;
+      left: 540px;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .fist { /*done*/
+      position: absolute;
+      width: 116px;
+      height: 74px;
+      top: 1495px;
+      left: 843px;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .text-wrapper-10 { /*done*/
+      position: absolute;
+      width: 193px;
+      top: 1620px;
+      left: 182px;
+      font-family: "Krub", Helvetica;
+      font-weight: 200;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .text-wrapper-11 { /*done*/
+      position: absolute;
+      width: 196px;
+      top: 1600px;
+      left: 805px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 900;
+      color: #fff500;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .text-wrapper-12 { /*done**/
+      position: absolute;
+      width: 196px;
+      top: 1600px;
+      left: 500px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 900;
+      color: #fff500;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .text-wrapper-13 { /*done*/
+      position: absolute;
+      width: 26.813rem;
+      top: 1200px;
+      left: 180px;
+      font-family: "Krub", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .overlap-2 { /*done??*/
+      position: absolute;
+      width: 170px;
+      height: 182px;
+      top: 1750px;
+      left: 465px;
+    }
+    
+    .wander-homepage .text-wrapper-14 {   /*done??*/
+      width: 350px;
+      top: 0;
+      left: 0;  
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .line-2 {
+      width: 284px;
+      top: 1850px;
+      left: 464px;
+      height: 1px;
+      background-color: #fff500;
+    }
+    
+    .wander-homepage .vid { /*doone*/
+      position: absolute;
+      width: 150px;
+      height: 209px;
+      top: 1750px;
+      left: 130px;
+      background-color: #000000;
+      object-fit: fill;
+    }
+    
+    .wander-homepage .image { /*doone*/
+      width: 120px;
+      height: 243px;
+      top: 1750px;
+      left: 289px;
+      position: absolute;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .image-2 { /*doone*/
+      width: 150px;
+      height: 100px;
+      top: 1969px;
+      left: 130px;
+      position: absolute;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .image-3 { /*doone*/
+      width: 120px;
+      height: 70px;
+      top: 2002px;
+      left: 289px;
+      position: absolute;
+      object-fit: cover;
+    }
+    
+    .wander-homepage .overlap-3 { /*done*/
+      position: absolute;
+      width: 433px;
+      height: 407px;
+      top: 1850px;
+      left: 465px;
+    }
+    
+    .wander-homepage .text-wrapper-15 { /*done*/
+      position: absolute;
+      width: 300px;
+      font-family: "Krub", Helvetica;
+      font-weight: 200;
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .wander-homepage .book-now {
+      top: 2067px;
+      left: 464px;
+    }
+    
+    .wander-homepage .overlap-4 { /*done*/
+      position: relative;
+      width: 175px;
+      height: 62px;
+      border-radius: 40px;
+    }
+    
+    .wander-homepage .rectangle-3 { /*done*/
+      position: absolute;
+      width: 125px;
+      height: 32px;
+      background-color: #fff500;
+      border-radius: 40px;
+      opacity: 0.7;
+    }
+    
+    .wander-homepage .text-wrapper-16 {
+      top: -49px;
+      left: -10px;
+      font-size: 20px;
+
+    }
+    
+    .wander-homepage .group-2 { /*done*/
+      position: absolute;
+      top: 2150px;
+      left: -170px;
+    }
+    
+    .wander-homepage .line-3 {
+      width: 995px;
+      top: -1px;
+      left: 168px;
+      position: absolute;
+      height: 1px;
+      background-color: #fff;
+    }
+    
+    .wander-homepage .ig {
+      position: absolute;
+      width: 50px;
+      height: 54px;
+      top: 5px;
+      left: 576px;
+    }
+    
+    .wander-homepage .overlap-5 {
+      position: absolute;
+      width: 136px;
+      height: 61px;
+      top: 11px;
+      left: 626px;
+    }
+    
+    .wander-homepage .logo-3 {
+      position: absolute;
+      width: 64px;
+      height: 48px;
+      top: 0;
+      left: 0;
+    }
+    
+    .wander-homepage .email {
+      position: absolute;
+      width: 48px;
+      height: 38px;
+      top: 5px;
+      left: 68px;
+    }
+    
+  } 
+  
+@media only screen and (max-width: 768px){
+.wander-homepage .logo{
+  display: none;
+}
+  *{
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+  header{
+    background-color: #1a1b2c;
+    height: 100%;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .mobile-navbar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .mobile-navbar img {
+    position: relative;
+    width: 83px;
+    height: 61px;
+    top: -1px;
+    left: -30px;
+  }
+
+  .mobile-navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    top: 0;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: -100%;
+    top: 45px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #1a1b2c;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 3;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-link {
+    transition: 0.7s ease;
+    font-family: "Krub", Helvetica;
+  }
+
+  #cp{
+    color: #fff500;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
+
+    .wander-homepage .line {
+      top: -1px;
+    }
+
+    .wander-homepage {
+        background-color: #1a1d2c;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      }
+      
+      .wander-homepage .div {
+        background-color: #1a1d2c;
+        overflow: hidden;
+        width: 1000px;
+        height: 1840px;
+        position: relative;
+      }
+      
+      .wander-homepage .overlap {
+        position: absolute;
+        width: 1647px;
+        height: 2068px;
+        top: -64px;
+        left: -103px;
+      }
+      
+      .wander-homepage .overlap-group {
+        position: absolute;
+        width: 1647px;
+        height: 2068px;
+        top: 0;
+        left: 0;
+      }
+      
+      .wander-homepage .group {
+        position: absolute;
+        width: 706px;
+        height: 700px;
+        left: -41px;
+      }
+     
+      .wander-homepage .road-bg {
+        position: absolute;
+        width: 1440px;
+        height: 923px;
+        top: 64px;
+        left: 103px;
+      }
+      
+      .wander-homepage .rectangle { 
+        position: absolute;
+        width: 768px;
+        height: 625px;
+        top: 64px;
+        left: 103px;
+        background-color: #000000;
+        opacity: 0.3;
+        z-index: 1;
+      }
+      
+      .wander-homepage .navbar {
+        position: relative;
+        width: 1369px;
+        height: 80px;
+        left: 23px;
+        z-index: 2;
+      }
+      
+      .wander-homepage .text-wrapper { /*done*/
+        width: 126px;
+        left: 816px;
+        font-weight: 300;
+        color: #ffffff;
+        position: absolute;
+        top: 32px;
+        font-family: "Krub", Helvetica;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+        text-decoration: none;
+      }
+      
+      .wander-homepage .text-wrapper-2 { /*done*/
+        width: 126px;
+        left: 716px;
+        font-weight: 300;
+        color: #ffffff;
+        position: absolute;
+        top: 32px;
+        font-family: "Krub", Helvetica;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+        text-decoration: none;
+      }
+      
+      .wander-homepage .overlap-group-2 {
+        position: absolute;
+        width: 1369px;
+        height: 94px;
+        top: 0;
+        left: 0;
+      }
+
+      .wander-homepage .text-wrapper-3 { /*done*/
+        width: 77px;
+        left: 450px;
+        font-weight: 550;
+        color: #fff500;
+        position: absolute;
+        top: 32px;
+        font-family: "Krub", Helvetica;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+        z-index: 2;
+      }
+      
+      .wander-homepage .text-wrapper-4 { /*done*/
+        width: 126px;
+        left: 558px;
+        font-weight: 300;
+        color: #ffffff;
+        position: absolute;
+        top: 32px;
+        font-family: "Krub", Helvetica;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+        text-decoration: none;
+      }
+      
+      .wander-homepage .text-wrapper .trav{
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+      .wander-homepage .text-wrapper .for{
+        text-decoration: none;
+        color: #ffffff;
+      }
+      .wander-homepage .text-wrapper-5 { /*done*/
+        position: relative;
+        top: 285px;
+        left: -175px;
+        font-family: "Koulen", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 5.25rem;
+        z-index: 2;
+      }
+      
+      .wander-homepage .blur { /*done*/
+        position: absolute;
+        top: -17px;
+        left: 103px;
+      }
+      
+      .wander-homepage .p { 
+        top: 383px;
+        left: 218px;
+        font-weight: 200;
+        font-size: 12px;
+      }
+      
+      .wander-homepage .welcome-to-wander { 
+        top: 879px;
+        left: 208px;
+        font-size: 20px;
+      }
+      
+      .wander-homepage .span {      /*done*/
+        color: #ffffff;
+      }
+      
+      .wander-homepage .text-wrapper-6 {    /*done*/
+        color: #fff500;
+      }
+      
+      .wander-homepage .logo-2 { 
+        position: absolute;
+        width: 167px;
+        height: 207px;
+        top: 731px;
+        left: 221px;
+      }
+      
+      .wander-homepage .rectangle-2 { /*done*/
+        position: absolute;
+        position: absolute;
+        width: 352px;
+        height: 340px;
+        top: 1042px;
+        left: 132px;
+        background-color: #151825;
+        border-radius: 20px;
+      }
+      
+      .wander-homepage .text-wrapper-7 { /*done*/
+        font-weight: 700;
+        top: 1126px;
+        left: 124px;
+        font-size: 14px;
+      }
+      
+      .wander-homepage .we-envision-a-world { /*done*/
+        width: 146px;
+        top: 1135px;
+        left: 315px;
+        font-weight: 200;
+        font-size: 12px;
+      }
+      
+      .wander-homepage .text-wrapper-8 {
+        width: 139px;
+        top: 1303px;
+        left: 235px;
+        font-weight: 200;
+        font-size: 12px;
+      }
+      
+      .wander-homepage .text-wrapper-9 { 
+        top: 1055px;
+        left: 22px;
+        font-size: 18px;
+      }
+      
+      .wander-homepage .ellipse { /*done*/
+        left: 208.9px;
+        width: 30px;
+        height: 30px;
+        top: 1092px;
+      }
+      
+      .wander-homepage .ellipse-2 { /*done*/
+        left: 371px;
+        width: 30px;
+        height: 30px;
+        top: 1095px;
+      }
+      
+      .wander-homepage .ellipse-3 { /*done*/
+        left: 285px;
+        width: 30px;
+        height: 30px;
+        top: 1264px;
+      }
+      
+      .wander-homepage .pib { /*done*/
+        width: 47px;
+        height: 25px;
+        top: 1099px;
+        left: 200px;
+      }
+      
+      .wander-homepage .eye { /*done*/
+        width: 22px;
+        height: 25px;
+        top: 1098px;
+        left: 374.33px;
+      }
+      
+      .wander-homepage .fist { /*done*/
+        position: absolute;
+        width: 14px;
+        height: 39px;
+        top: 1259px;
+        left: 293.3px;
+      }
+      
+      .wander-homepage .text-wrapper-10 { 
+        width: 147px;
+        top: 1135px;
+        left: 151px;
+        font-weight: 200;
+        font-size: 12px;
+      }
+      
+      .wander-homepage .text-wrapper-11 { 
+        top: 1295px;
+        left: 204px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      
+      .wander-homepage .text-wrapper-12 { /*done**/
+        top: 1127px;
+        left: 288px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      
+      .wander-homepage .text-wrapper-13 { 
+        width: 17.813rem;
+        top: 924px;
+        left: 160px;
+        font-size: 12px;
+        text-align: center;
+      }
+      
+      .wander-homepage .overlap-2 { /*done??*/
+        position: absolute;
+        width: 170px;
+        height: 182px;
+        top: 1483px;
+        left: 69px;
+      }
+      
+      .wander-homepage .text-wrapper-14 {  
+        width: 252px;
+        font-size: 16px;
+        text-align: center;
+        top: 74px;
+      }
+      
+      .wander-homepage .line-2 {
+        width: 162px;
+        top: 1620px;
+        left: 112px;
+        height: .5px;
+      }
+      
+      .wander-homepage .vid { /*doone*/
+        position: absolute;
+        width: 144px;
+        height: 96px;
+        top: 1368px;
+        left: 79px;
+      }
+      
+      .wander-homepage .image { /*doone*/
+        width: 96px;
+        height: 129px;
+        top: 1368px;
+        left: 226.5px;
+        position: absolute;
+      }
+      
+      .wander-homepage .image-2 { /*doone*/
+        width: 144px;
+        height: 93px;
+        top: 1467px;
+        left: 79px;
+        position: absolute;
+      }
+      
+      .wander-homepage .image-3 { /*doone*/
+        width: 96px;
+        height: 60px;
+        top: 1500px;
+        left: 226px;
+        position: absolute;
+      }
+      
+      .wander-homepage .overlap-3 { /*done*/
+        position: absolute;
+        top: 1650px;
+        left: 89px;
+      }
+      
+      .wander-homepage .text-wrapper-15 { /*done*/
+        width: 299px;
+        font-weight: 200;
+        font-size: 12px;
+        text-align: center;
+        top: -24px;
+        left: -45px;
+      }
+      
+      .wander-homepage .book-now {
+        position: absolute;
+        top: 1769px;
+        left: 170px;
+      }
+      
+      .wander-homepage .overlap-4 { /*done*/
+        position: relative;
+        width: 175px;
+        height: 62px;
+        border-radius: 40px;
+      }
+      
+      .wander-homepage .rectangle-3 {
+        width: 69px;
+        height: 26px;
+      }
+      
+      .wander-homepage .text-wrapper-16 {
+        font-size: 12px;
+        top: -47.5px;
+        left: -37.5px;
+      }
+      
+      .wander-homepage .bottom {
+        position: relative;
+        left: 7px;
+      }
+
+      .wander-homepage .group-2 {
+        position: relative;
+        top: 1789px;
+        left: -443px;
+      }
+      
+      .wander-homepage .line-3 {
+        top: 91px;
+      }
+      
+      .wander-homepage .ig {
+        position: absolute;
+        width: 36px;
+        height: 40px;
+        top: 7px;
+        left: 585px;
+      }
+      
+      .wander-homepage .overlap-5 {
+        position: absolute;
+        width: 136px;
+        height: 61px;
+        top: 11px;
+        left: 618px;
+      }
+      
+      .wander-homepage .logo-3 {
+        position: relative;
+        width: 50px;
+        height: 34px;
+      }
+      
+      .wander-homepage .email {
+        position: relative;
+        width: 38px;
+        height: 28px;
+        top: -2px;
+        left: -6px;
+      }
+  }
+  
+  

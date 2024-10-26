@@ -1,0 +1,2809 @@
+body {
+    background-color: #1a1d2c;
+  }
+
+  header {
+    position: relative;
+    height:0;
+  }
+  
+  .mobile-navbar{
+    position: relative;
+    top: -500px;
+  }
+
+  .destinations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .destinations .div {
+    overflow: hidden;
+    width: 1440px;
+    height: 5120px;
+    position: relative;
+  }
+  
+  .destinations .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 5122px;
+    top: -2px;
+    left: 0;
+  }
+  
+  .destinations .image {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 2px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .destinations .img {
+    position: absolute;
+    width: 1439px;
+    height: 1024px;
+    top: 1026px;
+    left: 1px;
+    object-fit: cover;
+  }
+  
+  .destinations .catanduanes-img {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 2050px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .destinations .manila-img {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 3074px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .destinations .image-2 {
+    position: absolute;
+    width: 1439px;
+    height: 1024px;
+    top: 4098px;
+    left: 0;
+  }
+  
+  .destinations .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 5120px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+  
+  .destinations .image-3 {
+    position: absolute;
+    width: 515px;
+    height: 673px;
+    top: 4225px;
+    left: 61px;
+  }
+  
+  .destinations .text-wrapper {
+    top: 2524px;
+    right: 130px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .destinations .untitled-design {
+    top: 2505px;
+    left: 1268px;
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-2 {
+    top: 3531px;
+    right: 165px;
+    position: absolute;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .destinations .untitled-design-2 {
+    top: 3511px;
+    left: 1249px;
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-3 {
+    width: 303px;
+    top: 1122px;
+    left: 61px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    font-size: 76px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-4 {
+    position: absolute;
+    width: 454px;
+    top: 2137px;
+    right: -3px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 76px;
+  }
+  
+  .destinations .text-wrapper-5 {
+    top: 3144px;
+    right: 115px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    font-size: 76px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-6 {
+    top: 4161px;
+    right: 114px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    font-size: 76px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .image-4 {
+    position: absolute;
+    width: 515px;
+    height: 673px;
+    top: 1240px;
+    left: 846px;
+  }
+  
+  .destinations .text-wrapper-7 {
+    position: absolute;
+    width: 213px;
+    top: 931px;
+    left: 268px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-8 {
+    position: absolute;
+    width: 192px;
+    top: 931px;
+    left: 498px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .image-5 {
+    position: absolute;
+    width: 515px;
+    height: 673px;
+    top: 211px;
+    left: 846px;
+  }
+  
+  .destinations .text-wrapper-9 {
+    width: 275px;
+    top: 162px;
+    left: 61px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    font-size: 76px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-10 {
+    position: absolute;
+    width: 275px;
+    height: 61px;
+    top: 1580px;
+    left: 261px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 700;
+    color: #fff500;
+    font-size: 38px;
+  }
+  
+  .destinations .text-wrapper-11 {
+    top: 2606px;
+    position: absolute;
+    height: 61px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 700;
+    color: #fff500;
+    font-size: 38px;
+    left: 934px;
+  }
+  
+  .destinations .text-wrapper-12 {
+    top: 3631px;
+    right: 324px;
+    position: absolute;
+    height: 61px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 700;
+    color: #fff500;
+    font-size: 38px;
+  }
+  
+  .destinations .text-wrapper-13 {
+    bottom: 566px;
+    right: 148px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .destinations .pin {
+    top: 4504px;
+    left: 1253px;
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-14 {
+    left: 892px;
+    position: absolute;
+    height: 61px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 700;
+    color: #fff500;
+    font-size: 38px;
+    bottom: 483px;
+  }
+  
+  .destinations .p {
+    width: 665px;
+    top: 302px;
+    left: 61px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .la-union-is-a {
+    position: absolute;
+    width: 665px;
+    top: 1267px;
+    left: 62px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .destinations .catanduanes-is-an {
+    position: absolute;
+    width: 665px;
+    top: 2278px;
+    right: 92px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .destinations .manila-is-the {
+    position: absolute;
+    width: 665px;
+    top: 3294px;
+    right: 107px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .destinations .text-wrapper-15 {
+    position: absolute;
+    width: 665px;
+    bottom: 632px;
+    right: 114px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .destinations .image-6 {
+    position: absolute;
+    width: 179px;
+    height: 247px;
+    top: 672px;
+    left: 61px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-16 {
+    position: absolute;
+    width: 103px;
+    top: 931px;
+    left: 109px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .destinations .text-wrapper-17 {
+    width: 158px;
+    top: 1931px;
+    left: 87px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-18 {
+    position: absolute;
+    width: 114px;
+    top: 2926px;
+    right: 98px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  .travel-tips .text-wrapper-18 .mor{
+    font-family: "Krub", Helvetica;
+    color: #fff500;
+  }
+  
+  .destinations .text-wrapper-19 {
+    position: absolute;
+    width: 198px;
+    top: 3979px;
+    right: 86px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .destinations .text-wrapper-20 {
+    position: absolute;
+    width: 198px;
+    bottom: 140px;
+    right: 111px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-21 {
+    position: absolute;
+    width: 173px;
+    top: 4893px;
+    left: 690px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-22 {
+    position: absolute;
+    width: 198px;
+    bottom: 121px;
+    left: 906px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-23 {
+    position: absolute;
+    top: 3979px;
+    right: 362px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .destinations .text-wrapper-24 {
+    position: absolute;
+    width: 198px;
+    top: 3979px;
+    left: 686px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-25 {
+    position: absolute;
+    width: 179px;
+    top: 2927px;
+    left: 958px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-26 {
+    position: absolute;
+    width: 179px;
+    top: 2928px;
+    left: 736px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .BALUARTE-WATCH-TOWER {
+    position: absolute;
+    width: 216px;
+    top: 1930px;
+    left: 264px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .destinations .PINDANGAN-RUINS {
+    position: absolute;
+    width: 216px;
+    top: 1932px;
+    left: 493px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .image-7 {
+    position: absolute;
+    width: 179px;
+    height: 244px;
+    top: 675px;
+    left: 283px;
+  }
+  
+  .destinations .image-8 {
+    position: absolute;
+    width: 179px;
+    height: 244px;
+    top: 675px;
+    left: 505px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-27 {
+    top: 524px;
+    left: 94px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .destinations .pin-2 {
+    top: 505px;
+    left: 24px;
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-28 {
+    top: 1522px;
+    left: 93px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .destinations .pin-3 {
+    top: 1501px;
+    left: 24px;
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-9 {
+    position: absolute;
+    width: 179px;
+    height: 244px;
+    top: 1674px;
+    left: 61px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-10 {
+    position: absolute;
+    width: 179px;
+    height: 244px;
+    top: 1674px;
+    left: 287px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-11 {
+    position: absolute;
+    width: 179px;
+    height: 244px;
+    top: 1674px;
+    left: 513px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-12 {
+    position: absolute;
+    width: 515px;
+    height: 673px;
+    top: 2255px;
+    left: 61px;
+  }
+  
+  .destinations .image-13 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 2677px;
+    left: 1176px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-14 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 2677px;
+    left: 960px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-15 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 2677px;
+    left: 737px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-16 {
+    position: absolute;
+    width: 515px;
+    height: 673px;
+    top: 3309px;
+    left: 61px;
+  }
+  
+  .destinations .image-17 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 3723px;
+    left: 1145px;
+  }
+  
+  .destinations .image-18 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 3723px;
+    left: 924px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-19 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 3723px;
+    left: 703px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-20 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 4638px;
+    left: 1144px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-21 {
+    position: absolute;
+    width: 173px;
+    height: 244px;
+    top: 4638px;
+    left: 918px;
+    object-fit: cover;
+  }
+  
+  .destinations .image-22 {
+    position: absolute;
+    width: 172px;
+    height: 244px;
+    top: 4638px;
+    left: 696px;
+    object-fit: cover;
+  }
+  
+  .destinations .group {
+    position: absolute;
+    width: 1339px;
+    height: 72px;
+    top: 5050px;
+    left: 50px;
+  }
+  
+  .destinations .line {
+    width: 1339px;
+    top: 88px;
+    left: 22px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+    background-color: white;
+  }
+
+  .destinations .imgDes{
+    width: 156px;
+    top: 88px;
+    left: 775px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+    background-color: #fff500;
+  }
+  
+  .destinations .ig {
+    position: absolute;
+    width: 62px;
+    height: 66px;
+    top: 5px;
+    left: 564px;
+  }
+  
+  .destinations .overlap-group {
+    position: absolute;
+    width: 136px;
+    height: 61px;
+    top: 11px;
+    left: 626px;
+  }
+  
+  .destinations .logo {
+    position: absolute;
+    width: 76px;
+    height: 61px;
+    top: 0;
+    left: 0;
+  }
+  
+  .destinations .email {
+    position: absolute;
+    width: 61px;
+    height: 51px;
+    top: 5px;
+    left: 75px;
+  }
+  
+  .destinations .search {
+    position: absolute;
+    width: 1440px;
+    height: 923px;
+    top: 0;
+    left: 0;
+  }
+  
+  .destinations .navbar {
+    position: absolute;
+    width: 1369px;
+    height: 92px;
+    top: 2px;
+    left: 23px;
+  }
+  
+  .destinations .text-wrapper-29 {
+    width: 83px;
+    height: 22px;
+    left: 1123px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-30 {
+    position: absolute;
+    width: 108px;
+    top: 30px;
+    left: 964px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .destinations .text-wrapper-30 .trav{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .destinations .text-wrapper-31 .wan{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .destinations .text-wrapper-29 .for{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+
+  .destinations .overlap-2 {
+    position: absolute;
+    width: 1369px;
+    height: 92px;
+    top: 0;
+    left: 0;
+  }
+  
+  .destinations .line-2 {
+    width: 1345px;
+    top: 86px;
+    left: 24px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .destinations .untitled-design-3 {
+    position: absolute;
+    width: 127px;
+    height: 92px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .destinations .line-3 {
+    width: 1339px;
+    top: 100px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+    align-items: start;
+  }
+  
+  .destinations .text-wrapper-31 {
+    width: 77px;
+    left: 659px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-32 {
+    width: 126px;
+    left: 787px;
+    font-family: "Krub", Helvetica;
+    font-weight: 700;
+    color: #fff500;
+    position: absolute;
+    top: 30px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-33 {
+    top: 584px;
+    left: 201px;
+    position: absolute;
+    width: 344px;
+    height: 61px;
+    font-family: "Koh Santepheap", Helvetica;
+    font-weight: 700;
+    color: #fff500;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-34 {
+    position: absolute;
+    width: 454px;
+    top: 7222px;
+    left: 74px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-35 {
+    position: absolute;
+    width: 504px;
+    top: 9240px;
+    left: 846px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-36 {
+    position: absolute;
+    width: 675px;
+    top: 7386px;
+    left: 74px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-37 {
+    top: 7631px;
+    left: 120px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .destinations .line-4 {
+    position: absolute;
+    width: 1339px;
+    height: 1px;
+    top: 5054px;
+    left: 40px;
+    object-fit: cover;
+    background-color: white;
+  }
+  
+  .destinations .text-wrapper-38 {
+    position: absolute;
+    width: 176px;
+    top: 10210px;
+    left: 631px;
+    font-family: "Krub", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+ 
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .destinations {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .destinations .div {
+      overflow: hidden;
+      width: 1440px;
+      height: 3490px;
+      position: relative;
+    }
+  
+    
+    .destinations .image {
+      position: absolute;
+      width: 1000px;
+      height: 700px;
+      top: 2px;
+      left: 0;
+      object-fit: cover;
+    }
+    
+    .destinations .img {
+      position: absolute;
+      width: 1000px;
+      height: 700px;
+      top: 700.5px;
+      left: 1px;
+      object-fit: cover;
+    }
+    
+    .destinations .catanduanes-img {
+      position: absolute;
+      width: 1000px;
+      height: 700px;
+      top: 1400.5px;
+      left: 0;
+      object-fit: cover;
+    }
+    
+    .destinations .manila-img {
+      position: absolute;
+      width: 1000px;
+      height: 700px;
+      top: 2099px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-2 {
+      position: absolute;
+      width: 1000px;
+      height: 700px;
+      top: 2797px;
+    }
+    
+    .destinations .rectangle {
+      position: absolute;
+      width: 1440px;
+      height: 3500px;
+      background-color: #000000;
+      opacity: 0.5;
+    }
+    
+    .destinations .image-3 {
+      position: absolute;
+      width: 400px;
+      height: 500px;
+      top: 2856px;
+      left: 41px;
+    }
+    
+    .destinations .text-wrapper {
+      top: 1736px;
+      left: 868px;
+      position: absolute;
+      width: 63px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: normal;
+      text-decoration: underline;
+    }
+    
+    .destinations .untitled-design {
+      top: 1730px;
+      left: 890px;
+      position: absolute;
+      width: 63px;
+      height: 2.938rem;
+      object-fit: cover;
+    }
+    
+    .destinations .text-wrapper-2 {
+      top: 2422px;
+      left: 863px;
+      width: 63px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    
+    .destinations .untitled-design-2 {
+      top: 2415px;
+      left: 886px;
+      position: absolute;
+      width: 63px;
+      height: 2.938rem;
+      object-fit: cover;
+    }
+    
+    .destinations .text-wrapper-3 {
+      width: 303px;
+      top: 775px;
+      left: 45px;
+      font-family: "Koulen", Helvetica;
+      font-weight: 400;
+      font-size: 62px;
+      position: absolute;
+      color: #ffffff;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-4 {
+      position: absolute;
+      width: 454px;
+      top: 1446px;
+      left: 646px;
+      font-family: "Koulen", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 62px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-5 {
+      width: 454px;
+      top: 2149px;
+      left: 768px;
+      font-size: 62px;
+    }
+    
+    .destinations .text-wrapper-6 {
+      top: 2815px;
+      right: 508px;
+      font-size: 62px;
+    }
+    
+    .destinations .image-4 {
+      position: absolute;
+      width: 400px;
+      height: 500px;
+      top: 835px;
+      left: 539px;
+    }
+    
+    .destinations .text-wrapper-7 {
+      position: absolute;
+      width: 149px;
+      top: 624px;
+      left: 181px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-8 {
+      position: absolute;
+      width: 135px;
+      top: 624px;
+      left: 332px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .image-5 {
+      position: absolute;
+      width: 400px;
+      height: 500px;
+      top: 123px;
+      left: 544px;
+    }
+    
+    .destinations .text-wrapper-9 {
+      width: 275px;
+      top: 118px;
+      left: 42px;
+      font-family: "Koulen", Helvetica;
+      font-weight: 400;
+      font-size: 62px;
+      position: absolute;
+      color: #ffffff;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-10 {
+      position: absolute;
+      width: 344px;
+      height: 61px;
+      top: 1070px;
+      left: 75px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 700;
+      color: #fff500;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+
+    }
+    
+    .destinations .text-wrapper-11 {
+      top: 1765px;
+      left: 657px;
+      width: 344px;
+      height: 61px;
+      font-size: 24px;
+    }
+    
+    .destinations .text-wrapper-12 {
+      top: 2460px;
+      left: 643px;
+      width: 344px;
+      font-size: 24px;
+    }
+    
+    .destinations .text-wrapper-13 {
+      top: 3084px;
+      left: 864px;
+      position: absolute;
+      width: 63px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    
+    .destinations .pin {
+      top: 3076px;
+      left: 886px;
+      position: absolute;
+      width: 63px;
+      height: 2.938rem;
+      object-fit: cover;
+    }
+    
+    .destinations .text-wrapper-14 {
+      top: 3103px;
+      left: 651px;
+      font-size: 24px;
+    }
+    
+    .destinations .p {
+      width: 26.375rem;
+      top: 200px;
+      left: 43px;
+      font-family: "Krub", Helvetica;
+      font-weight: 400;
+      font-size: 14px;
+      position: absolute;
+      color: #ffffff;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .la-union-is-a {
+      position: absolute;
+      width: 420px;
+      top: 862px;
+      left: 47px;
+      font-family: "Krub", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: normal;
+
+    }
+    
+    .destinations .catanduanes-is-an {
+      position: absolute;
+      width: 420px;
+      top: 1535px;
+      left: 517px;
+      font-family: "Krub", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: right;
+      line-height: normal;
+    }
+    
+    .destinations .manila-is-the {
+      position: absolute;
+      width: 420px;
+      top: 2243px;
+      left: 509px;
+      font-family: "Krub", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-15 {
+      position: absolute;
+      width: 421px;
+      top: 2900px;
+      left: 508px;
+      font-family: "Krub", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 14px;
+    }
+    
+    .destinations .image-6 {
+      position: absolute;
+      width: 130px;
+      height: 179px;
+      top: 428px;
+      left: 44px;
+      object-fit: cover;
+    }
+    
+    .destinations .text-wrapper-16 {
+      position: absolute;
+      width: 103px;
+      top: 624px;
+      left: 83px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-17 {
+      width: 158px;
+      top: 1331px;
+      left: 32px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: center;
+      position: absolute;
+      color: #ffffff;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-18 {
+      top: 2014px;
+      left: 840px;
+      font-size: 18px;
+    }
+  
+    .travel-tips .text-wrapper-18 .mor{
+      font-family: "Krub", Helvetica;
+      color: #fff500;
+    }
+    
+    .destinations .text-wrapper-19 {
+      top: 2706px;
+      left: 802px;
+      font-size: 18px;
+    }
+    
+    .destinations .text-wrapper-20 {
+      position: absolute;
+      width: 144px;
+      top: 3343px;
+      left: 792px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    
+    .destinations .text-wrapper-21 {
+      position: absolute;
+      width: 133px;
+      top: 3343px;
+      left: 518px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    
+    .destinations .text-wrapper-22 {
+      position: absolute;
+      width: 167px;
+      top: 3326px;
+      left: 645px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    
+    .destinations .text-wrapper-23 {
+      width: 198px;
+      top: 2706px;
+      left: 668px;
+      font-size: 18px;
+    }
+    
+    .destinations .text-wrapper-24 {
+      width: 157px;
+      top: 2706px;
+      left: 494px;
+      font-size: 18px;
+    }
+    
+    .destinations .text-wrapper-25 {
+      position: absolute;
+      width: 138px;
+      top: 2014px;
+      left: 656px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-26 {
+      position: absolute;
+      width: 132px;
+      top: 2014px;
+      left: 517px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: normal;
+    }
+    
+    .destinations .BALUARTE-WATCH-TOWER {
+      position: absolute;
+      width: 216px;
+      top: 1331px;
+      left: 139px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .PINDANGAN-RUINS {
+      position: absolute;
+      width: 216px;
+      top: 1331px;
+      left: 287px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .image-7 {
+      position: absolute;
+      width: 130px;
+      height: 177px;
+      top: 428px;
+      left: 189.5px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-8 {
+      position: absolute;
+      width: 130px;
+      height: 177px;
+      top: 428px;
+      left: 335px;
+      object-fit: cover;
+    }
+    
+    .destinations .text-wrapper-27 {
+      top: 356px;
+      left: 75px;
+      position: absolute;
+      width: 63px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: underline;
+    }
+    
+    .destinations .pin-2 {
+      top: 348px;
+      left: 24px;
+      position: absolute;
+      width: 63px;
+      height: 2.938rem;
+      object-fit: cover;
+  }
+
+    
+    .destinations .text-wrapper-28 {
+      top: 1037px;
+      left: 77px;
+      position: absolute;
+      width: 63px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: underline;
+    }
+    
+    .destinations .pin-3 {
+      top: 1030px;
+      left: 24px;
+      position: absolute;
+      width: 63px;
+      height: 2.938rem;
+      object-fit: cover;
+    }
+    
+    .destinations .image-9 {
+      position: absolute;
+      width: 131px;
+      height: 179px;
+      top: 1130px;
+      left: 42px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-10 {
+      position: absolute;
+      width: 131px;
+      height: 179px;
+      top: 1130px;
+      left: 186px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-11 {
+      position: absolute;
+      width: 131px;
+      height: 179px;
+      top: 1130px;
+      left: 330px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-12 {
+      position: absolute;
+      width: 400px;
+      height: 500px;
+      top: 1520px;
+      left: 51px;
+    }
+    
+    .destinations .image-13 {
+      position: absolute;
+      width: 130px;
+      height: 185px;
+      top: 1808px;
+      left: 807px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-14 {
+      position: absolute;
+      width: 130px;
+      height: 185px;
+      top: 1808px;
+      left: 661px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-15 {
+      position: absolute;
+      width: 130px;
+      height: 182.5px;
+      top: 1808px;
+      left: 517px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-16 {
+      position: absolute;
+      width: 400px;
+      height: 500px;
+      top: 2227px;
+      left: 46px;
+    }
+    
+    .destinations .image-17 {
+      position: absolute;
+      width: 130px;
+      height: 179px;
+      top: 2500px;
+      left: 795px;
+    }
+    
+    .destinations .image-18 {
+      position: absolute;
+      width: 130px;
+      height: 183px;
+      top: 2500px;
+      left: 650px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-19 {
+      position: absolute;
+      width: 130px;
+      height: 184px;
+      top: 2500px;
+      left: 505px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-20 {
+      position: absolute;
+      width: 130px;
+      height: 183px;
+      top: 3146px;
+      left: 800px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-21 {
+      position: absolute;
+      width: 130px;
+      height: 183px;
+      top: 3146px;
+      left: 659px;
+      object-fit: cover;
+    }
+    
+    .destinations .image-22 {
+      position: absolute;
+      width: 130px;
+      height: 184px;
+      top: 3146px;
+      left: 518px;
+      object-fit: cover;
+    }
+    
+    .destinations .group {
+      position: absolute;
+      width: 1339px;
+      height: 72px;
+      top: 3428px;
+      left: -165px;
+    }
+    
+    .destinations .line {
+      width: 995px;
+      top: 80px;
+      left: -20px;
+    }
+  
+    .destinations .ig {
+      position: absolute;
+      width: 50px;
+      height: 54px;
+      top: 5px;
+      left: 576px;
+    }
+    
+    .destinations .overlap-group {
+      position: absolute;
+      width: 136px;
+      height: 61px;
+      top: 11px;
+      left: 626px;
+    }
+    
+    .destinations .logo {
+      position: absolute;
+      width: 64px;
+      height: 48px;
+    }
+    
+    .destinations .email {
+      position: absolute;
+      width: 48px;
+      height: 38px;
+      top: 5px;
+      left: 68px;
+    }
+    
+    .destinations .search {
+      position: absolute;
+      width: 1440px;
+      height: 923px;
+      top: 0;
+      left: 0;
+    }
+    
+    .destinations .navbar {
+      position: relative;
+      width: 1369px;
+      height: 92px;
+      top: 2px;
+      left: 23px;
+    }
+   
+    .destinations .text-wrapper-29 { 
+      width: 126px;
+      left: 816px;
+      font-family: "Krub", Helvetica;
+      font-weight: 300;
+      color: #ffffff;
+      position: absolute;
+      top: 32px;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
+    .destinations .text-wrapper-30 { 
+      position: absolute;
+      width: 126px;
+      top: 32px;
+      left: 716px;
+      font-family: "Krub", Helvetica;
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .destinations .text-wrapper-30 .trav{
+      text-decoration: none;
+      color: #ffffff;
+    }
+  
+    .destinations .text-wrapper-31 .wan{
+      text-decoration: none;
+      color: #ffffff;
+    }
+  
+    .destinations .text-wrapper-29 .for{
+      text-decoration: none;
+      color: #ffffff;
+    }
+  
+  
+    .destinations .overlap-2 {
+      position: absolute;
+      width: 1369px;
+      height: 92px;
+      top: 0;
+      left: 0;
+    }
+    
+    .destinations .line-2 {
+      width: 1345px;
+      top: 86px;
+      left: 24px;
+      position: absolute;
+      height: 1px;
+      object-fit: cover;
+    }
+    
+    .destinations .untitled-design-3 {
+      position: absolute;
+      width: 100px;
+      height: 67px;
+      top: 10px;
+      left: -30px;
+      object-fit: cover;
+    }
+    
+    .destinations .line-3 {
+      width: 1339px;
+      top: -1px;
+      left: 0;
+      position: absolute;
+      height: 1px;
+      object-fit: cover;
+      align-items: start;
+    }
+    
+    .destinations .text-wrapper-31 { 
+      width: 77px;
+      left: 450px;
+      font-family: "Krub", Helvetica;
+      font-weight: 300;
+      color: #ffffff;
+      position: absolute;
+      top: 32px;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-32 { 
+      width: 126px;
+      left: 558px;
+      font-family: "Krub", Helvetica;
+      font-weight: 550;
+      color: #fff500;
+      position: absolute;
+      top: 32px;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
+    .destinations .text-wrapper-33 {
+      top: 382px;
+      left: 77px;
+      position: absolute;
+      width: 344px;
+      height: 61px;
+      font-family: "Koh Santepheap", Helvetica;
+      font-weight: 700;
+      color: #fff500;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-34 {
+      position: absolute;
+      width: 454px;
+      top: 7222px;
+      left: 74px;
+      font-family: "Koulen", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 96px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-35 {
+      position: absolute;
+      width: 504px;
+      top: 9240px;
+      left: 846px;
+      font-family: "Koulen", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 96px;
+      text-align: right;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-36 {
+      position: absolute;
+      width: 675px;
+      top: 7386px;
+      left: 74px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    
+    .destinations .text-wrapper-37 {
+      top: 7631px;
+      left: 120px;
+      position: absolute;
+      width: 63px;
+      font-family: "Krub", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 30px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-decoration: underline;
+    }
+    
+    .destinations .line-4 {
+      position: absolute;
+      width: 1339px;
+      height: 1px;
+      top: 10757px;
+      left: -694px;
+      object-fit: cover;
+    }
+    
+    .destinations .text-wrapper-38 {
+      position: absolute;
+      width: 176px;
+      top: 10210px;
+      left: 631px;
+      font-family: "Krub", Helvetica;
+      font-weight: 600;
+      color: #ffffff;
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+  }
+
+@media only screen and (max-width: 768px){
+
+  .destinations .image-16, .image-12, .text-wrapper-3, .line-4 , .line-3, .text-wrapper-28, .pin-3, .untitled-design-3 {
+    display: none;
+  }
+
+  *{
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header{
+    background-color: #1a1b2c;
+    height: 100%;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .mobile-navbar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .mobile-navbar img {
+    position: relative;
+    width: 83px;
+    height: 61px;
+    top: -1px;
+    left: -30px;
+  }
+
+  .mobile-navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    top:0;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: -100%;
+    top: 45px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #1a1b2c;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 4;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-link {
+    transition: 0.7s ease;
+    font-family: "Krub", Helvetica;
+  }
+
+  #cp{
+    color: #fff500;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
+  .destinations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .destinations .div {
+    overflow: hidden;
+    width: 1440px;
+    height: 3106px;
+    position: relative;
+  }
+
+  
+  .destinations .image {
+    width: 850px;
+    height: 633px;
+    top: -38px;
+    left: -50px;
+    z-index: 1;
+  }
+  
+  .destinations .img {
+    width: 850px;
+    height: 633px;
+    top: 560.5px;
+    left: -182px;
+  }
+  
+  .destinations .catanduanes-img {
+    width: 835px;
+    height: 685px;
+    top: 1193.5px;
+    left: -101px;
+  }
+  
+  .destinations .manila-img {
+    width: 805px;
+    height: 588px;
+    top: 1879px;
+    left: -23px;
+  }
+  
+  .destinations .image-2 {
+    width: 835px;
+    height: 640px;
+    top: 2468px;
+    left: -150px;
+  }
+  
+  .destinations .rectangle {
+    z-index: 2;
+    height: 3108px;
+  }
+  
+  .destinations .image-3-mob{
+    position: absolute;
+    width: 287px;
+    height: 166px;
+    top: 2568px;
+    left: 58px;
+  }
+  
+  .destinations .text-wrapper {
+    top: 1736px;
+    left: 868px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .destinations .untitled-design {
+    top: 1730px;
+    left: 890px;
+    position: absolute;
+    width: 63px;
+    height: 2.938rem;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-2 {
+    top: 2422px;
+    left: 863px;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .destinations .untitled-design-2 {
+    top: 2415px;
+    left: 886px;
+    position: absolute;
+    width: 63px;
+    height: 2.938rem;
+    object-fit: cover;
+  }
+
+  .destinations .map-mob {
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-3-mob {
+    top: 747px;
+    left: 140px;
+    font-size: 44px;
+    z-index: 3;
+    text-shadow: 0px 0px 18px #353935;
+    width: 275px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-4-mob {
+    top: 1365px;
+    left: 99px;
+    font-size: 44px;
+    z-index: 3;
+    text-shadow: 0px 0px 18px #353935;
+    width: 275px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-5-mob {
+    top: 2045px;
+    left: 140px;
+    font-size: 44px;
+    z-index: 3;
+    text-shadow: 0px 0px 18px #353935;
+    width: 275px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-6-mob {
+    top: 2614px;
+    left: 145px;
+    font-size: 44px;
+    z-index: 3;
+    text-shadow: 0px 0px 18px #353935;
+    width: 275px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .image-4-mob {
+    position: absolute;
+    width: 287px;
+    height: 166px;
+    top: 701px;
+    left: 61px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-7 {
+    width: 97px;
+    top: 548px;
+    left: 151px;
+    font-size: 12px;
+    text-align: center;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-8 {
+    width: 80px;
+    top: 548px;
+    left: 263px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .image-5-mob {
+    position: absolute;
+    width: 287px;
+    height: 166px;
+    top: 123px;
+    left: 59px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-9-mob {
+    top: 160px;
+    left: 140px;
+    font-size: 44px;
+    z-index: 3;
+    text-shadow: 0px 0px 18px #353935;
+    width: 275px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .destinations .text-wrapper-10 {
+    width: 344px;
+    height: 61px;
+    top: 1003px;
+    left: 155px;
+    font-size: 16px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-11 {
+    top: 1678px;
+    left: 155px;
+    width: 344px;
+    height: 61px;
+    font-size: 16px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-12 {
+    top: 2301px;
+    left: 155px;
+    width: 344px;
+    font-size: 16px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-13 {
+    top: 3084px;
+    left: 864px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .destinations .text-wrapper-14 {
+    top: 2876px;
+    left: 155px;
+    width: 344px;
+    height: 61px;
+    font-size: 16px;
+    z-index: 2;
+  }
+  
+  .destinations .p {
+    width: 20.375rem;
+    top: 290px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    z-index: 3;
+    text-align: center;
+  }
+  
+  .destinations .la-union-is-a {
+    width: 19.375rem;
+    top: 861px;
+    left: 47px;
+    font-weight: 400;
+    font-size: 12px;
+    z-index: 3;
+    text-align: center;
+  }
+  
+  .destinations .catanduanes-is-an {
+    width: 292px;
+    top: 1486px;
+    left: 52px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    z-index: 3;
+  }
+  
+  .destinations .manila-is-the {
+    width: 359px;
+    top: 2167px;
+    left: 24px;
+    font-size: 12px;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .destinations .text-wrapper-15 {
+    width: 356px;
+    top: 2727px;
+    left: 23px;
+    font-size: 12px;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .destinations .image-6 {
+    width: 75px;
+    height: 104px;
+    top: 440px;
+    left: 59px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-16 {
+    width: 103px;
+    top: 548px;
+    left: 78px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-17 {
+    width: 158px;
+    top: 1140px;
+    left: 68px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-18 {
+    top: 1822px;
+    left: 286px;
+    font-size: 12px;
+    z-index: 3;
+  }
+
+  .travel-tips .text-wrapper-18 .mor{
+    font-family: "Krub", Helvetica;
+    color: #fff500;
+  }
+  
+  .destinations .text-wrapper-19 {
+    position: absolute; 
+    width: 198px;
+    top: 2430px;
+    left: 267px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-20 {
+    width: 90px;
+    top: 3011px;
+    left: 260px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-21 {
+    width: 90px;
+    top: 3011px;
+    left: 48px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-22 {
+    width: 90px;
+    top: 2999px;
+    left: 156px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-23 {
+    width: 198px;
+    top: 2432px;
+    left: 169px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-24 {
+    width: 110px;
+    top: 2432px;
+    left: 39px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  .destinations .text-wrapper-25 {
+    width: 90px;
+    top: 1823px;
+    left: 156px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-26 {
+    width: 90px;
+    top: 1823px;
+    left: 49px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .BALUARTE-WATCH-TOWER {
+    width: 216px;
+    top: 1140px;
+    left: 91px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .PINDANGAN-RUINS {
+    width: 216px;
+    top: 1140px;
+    left: 198px;
+    font-size: 12px;
+    z-index: 3;
+  }
+  
+  .destinations .image-7 {
+    width: 76px;
+    height: 104px;
+    top: 440px;
+    left: 163.5px;
+    z-index: 3;
+  }
+  
+  .destinations .image-8 {
+    width: 76px;
+    height: 104px;
+    top: 440px;
+    left: 267px;
+    z-index: 3;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-27 {
+    top: 356px;
+    left: 75px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+    
+  .destinations .image-9 {
+    width: 75px;
+    height: 102px;
+    top: 1035px;
+    left: 59px;
+    z-index: 3;
+  }
+  
+  .destinations .image-10 {
+    width: 75px;
+    height: 102px;
+    top: 1035px;
+    left: 163.5px;
+    z-index: 3;
+  }
+  
+  .destinations .image-11 {
+    width: 75px;
+    height: 102px;
+    top: 1035px;
+    left: 267px;
+    z-index: 3;
+  }
+  
+  .destinations .image-12-mob {
+    position: absolute;
+    width: 287px;
+    height: 166px;
+    top: 1321px;
+    left: 58px;
+  }
+  
+  .destinations .image-13 {
+    width: 75px;
+    height: 106px;
+    top: 1711px;
+    left: 57px;
+    z-index: 3;
+  }
+  
+  .destinations .image-14 {
+    width: 75px;
+    height: 105px;
+    top: 1711px;
+    left: 163px;
+    z-index: 3;
+  }
+  
+  .destinations .image-15 {
+    width: 75px;
+    height: 106px;
+    top: 1711px;
+    left: 267px;
+    z-index: 3;
+  }
+  
+  .destinations .image-16-mob {
+    position: absolute;
+    width: 287px;
+    height: 166px;
+    top: 2001px;
+    left: 56px;
+  }
+  
+  .destinations .image-17 {
+    width: 75px;
+    height: 102px;
+    top: 2325px;
+    left: 267px;
+    z-index: 2;
+  }
+  
+  .destinations .image-18 {
+    width: 75px;
+    height: 106px;
+    top: 2325px;
+    left: 163px;
+    z-index: 2;
+  }
+  
+  .destinations .image-19 {
+    width: 75px;
+    height: 106px;
+    top: 2325px;
+    left: 57px;
+    z-index: 2;
+  }
+  
+  .destinations .image-20 {
+    width: 75px;
+    height: 106px;
+    top: 2902px;
+    left: 267px;
+    z-index: 2;
+  }
+  
+  .destinations .image-21 {
+    width: 75px;
+    height: 106px;
+    top: 2902px;
+    left: 163px;
+    z-index: 2;
+  }
+  
+  .destinations .image-22 {
+    width: 75px;
+    height: 106px;
+    top: 2902px;
+    left: 57px;
+    z-index: 2;
+  }
+  
+  .destinations .group {
+    height: 72px;
+    top: 3055px;
+    left: -460px;
+    z-index: 2;
+  }
+  
+  .destinations .line {
+    top: -10px;
+  }
+
+  .destinations .ig {
+    width: 36px;
+    height: 40px;
+    top: 14px;
+    left: 603px;
+  }
+  
+  .destinations .overlap-group {
+    position: absolute;
+    width: 136px;
+    height: 61px;
+    top: 11px;
+    left: 626px;
+  }
+  
+  .destinations .logo {
+    width: 50px;
+    height: 47px;
+    left: 8px;
+  }
+  
+  .destinations .email {
+    width: 38px;
+    height: 28px;
+    top: 12px;
+    left: 54px;
+  }
+  
+  .destinations .search {
+    width: 1440px;
+    height: 923px;
+    top: 0;
+    left: 0;
+  }
+  
+  .destinations .navbar {
+    width: 1369px;
+    height: 92px;
+    top: 2px;
+    left: 23px;
+  }
+ 
+  .destinations .text-wrapper-29 { 
+    width: 126px;
+    left: 816px;
+    font-family: "Krub", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    position: absolute;
+    top: 32px;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .destinations .text-wrapper-30 { 
+    position: absolute;
+    width: 126px;
+    top: 32px;
+    left: 716px;
+    font-family: "Krub", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .destinations .text-wrapper-30 .trav{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .destinations .text-wrapper-31 .wan{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .destinations .text-wrapper-29 .for{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+
+  .destinations .overlap-2 {
+    position: absolute;
+    width: 1369px;
+    height: 92px;
+    top: 0;
+    left: 0;
+  }
+  
+  .destinations .line-2 {
+    width: 1345px;
+    top: 86px;
+    left: 24px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .destinations .untitled-design-3 {
+    width: 100px;
+    height: 67px;
+    top: 10px;
+    left: -30px;
+    z-index: 3;
+  }
+  
+  .destinations .line-3 {
+    width: 1339px;
+    top: -1px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+    align-items: start;
+  }
+  
+  .destinations .text-wrapper-31 { 
+    width: 77px;
+    left: 450px;
+    font-family: "Krub", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    position: absolute;
+    top: 32px;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-32 {
+    width: 126px;
+    left: 558px;
+    font-family: "Krub", Helvetica;
+    font-weight: 550;
+    color: #fff500;
+    position: absolute;
+    top: 32px;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .destinations .text-wrapper-33 {
+    top: 414px;
+    left: 29px;
+    width: 344px;
+    height: 61px;
+    font-size: 16px;
+    z-index: 3;
+  }
+  
+  .destinations .text-wrapper-34 {
+    position: absolute;
+    width: 454px;
+    top: 7222px;
+    left: 74px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-35 {
+    position: absolute;
+    width: 504px;
+    top: 9240px;
+    left: 846px;
+    font-family: "Koulen", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-36 {
+    position: absolute;
+    width: 675px;
+    top: 7386px;
+    left: 74px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .destinations .text-wrapper-37 {
+    top: 7631px;
+    left: 120px;
+    position: absolute;
+    width: 63px;
+    font-family: "Krub", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .destinations .line-4 {
+    position: absolute;
+    width: 1339px;
+    height: 1px;
+    top: 10757px;
+    left: -694px;
+    object-fit: cover;
+  }
+  
+  .destinations .text-wrapper-38 {
+    position: absolute;
+    width: 176px;
+    top: 10210px;
+    left: 631px;
+    font-family: "Krub", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+} 
